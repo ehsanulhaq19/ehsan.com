@@ -10,6 +10,7 @@ import shaq from './personal/profile.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
+import database from './icons/database.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -37,11 +38,23 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import php from './tech/php.png';
+import python from './tech/python.png';
+import mysql from './tech/mysql.png';
+import symfony from './tech/symfony.png';
+import laravel from './tech/laravel.png';
+import aws from './tech/aws.png';
+import vue from './tech/vue.png';
+import django from './tech/django.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import digilynx from './company/digilynx.png';
+import emerssive from './company/emerssive.png';
+import workhub from './company/workhub.png';
+import tincx from './company/tincx.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -96,4 +109,17 @@ export {
   dcc,
   kelhel,
   microverse,
+  database,
+  php,
+  python,
+  mysql,
+  symfony,
+  laravel,
+  aws,
+  vue,
+  django,
+  digilynx,
+  emerssive,
+  workhub,
+  tincx
 };

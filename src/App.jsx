@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import {
   About,
@@ -8,8 +9,16 @@ import {
   Tech,
   Projects,
 } from './components';
+import useAudioPlayer from './hooks/useAudioPlayer';
 
 const App = () => {
+  //Hooks
+  useAudioPlayer('/audio/audioIntroduction.mp3', 3000)
+  
+  //Events
+  useEffect(() => {
+  }, [])
+
   return (
     <BrowserRouter>
       <div className="relative z-0">
@@ -26,7 +35,7 @@ const App = () => {
           <Tech />
         </div>
 
-        <Projects />
+        {/* <Projects /> */}
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 

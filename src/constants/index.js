@@ -27,6 +27,19 @@ import {
   dcc,
   kelhel,
   microverse,
+  database,
+  php,
+  python,
+  mysql,
+  symfony,
+  laravel,
+  aws,
+  vue,
+  django,
+  digilynx,
+  emerssive,
+  workhub,
+  tincx
 } from '../assets';
 
 export const navLinks = [
@@ -54,8 +67,8 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Database Management',
+    icon: database,
   },
   {
     title: 'Software Prototyping',
@@ -65,40 +78,40 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
     name: 'TypeScript',
     icon: typescript,
+  },
+  {
+    name: 'vue',
+    icon: vue,
   },
   {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'python',
+    icon: python,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'php',
+    icon: php,
+  },
+  {
+    name: 'laravel',
+    icon: laravel,
+  },
+  {
+    name: 'symfony',
+    icon: symfony,
+  },
+  {
+    name: 'django',
+    icon: django,
   },
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
   },
   {
     name: 'graphql',
@@ -109,12 +122,12 @@ const technologies = [
     icon: postgresql,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'mysql',
+    icon: mysql,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'aws',
+    icon: aws,
   },
   {
     name: 'docker',
@@ -124,34 +137,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Mobile and Web Developer',
+    company_name: 'Emerssive Solutions',
+    icon: emerssive,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'July 2019 - July 2020',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Full Stack Web App Developer - Mid Level',
+    company_name: 'Digilynx',
+    icon: digilynx,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'July 2020 - Feb 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Full Stack Web App Developer - Senior Level',
+    company_name: 'Workhub',
+    icon: workhub,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Feb 2022 - March 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Full Stack Web App Developer - Senior Level',
+    company_name: 'Tincx',
+    icon: tincx,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'March 2024 - Present',
   },
 ];
+
+const resumeLink = "https://docs.google.com/document/d/1qEa8Cdg4gajkY3nQw_xxtye4jFz5ANhL/edit?usp=sharing&ouid=117366656523103312365&rtpof=true&sd=true";
 
 const projects = [
   {
@@ -268,4 +283,6 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const githubUrl = "https://github.com/ehsanulhaq19"
+
+export { services, technologies, experiences, resumeLink, projects, githubUrl };

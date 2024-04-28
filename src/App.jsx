@@ -8,13 +8,10 @@ import {
   Navbar,
   Tech,
   Projects,
+  IntroWidget
 } from './components';
-import useAudioPlayer from './hooks/useAudioPlayer';
 
 const App = () => {
-  //Hooks
-  useAudioPlayer('/audio/audioIntroduction.mp3', 3000)
-  
   //Events
   useEffect(() => {
   }, [])
@@ -35,7 +32,7 @@ const App = () => {
           <Tech />
         </div>
 
-        {/* <Projects /> */}
+        <Projects />
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
@@ -49,6 +46,8 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
+
+        <IntroWidget />
       </div>
     </BrowserRouter>
   );

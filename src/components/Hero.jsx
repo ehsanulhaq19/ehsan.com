@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
+import { navLinks, socialLinks } from '../constants';
 import { shaq, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
@@ -48,6 +48,20 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Let's Craft Digital Wonders Together! <br className="sm:block hidden" />
             </p>
+            <div className='links-container'>
+              {
+                socialLinks.map(socialLink => {
+                  return <a className="link" href={socialLink.url ?? "#"} target={socialLink.url ? "blank" : ""}>
+                    {
+                      <img src={socialLink.img} />
+                    }
+                    {
+                      socialLink.contact ? <span>{socialLink.contact}</span> : ""
+                    }
+                  </a>
+                })
+              }
+            </div>
           </div>
           <div
             className="w-screen flex flex-col items-start 

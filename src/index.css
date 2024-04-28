@@ -220,6 +220,14 @@
   }
 }
 
+.w-screen {
+  width: 99vw !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 /* Components */
 
 /* LiveActivity */
@@ -229,4 +237,71 @@
 
 .live-activity .github-container {
   
+}
+
+/* IntroWidget */
+.intro-widget {
+  position: fixed;
+  bottom: 58px;
+  right: 10px;
+}
+
+.intro-widget.play-mode {
+  background: white;
+  border-radius: 20px 20px 0;
+  width: 130px;
+  height: 200px;
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+.intro-widget .intro-image {
+  width: 100px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.intro-widget .stop-container {
+  background: white;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  border: 1px solid lightgray;
+}
+
+.intro-widget .stop-container img {
+  width: 25px;
+  cursor: pointer;
+}
+
+/**Hero**/
+.links-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.links-container .link {
+  display: flex;
+  align-items: center;
+}
+
+.links-container .link img {
+  width: 40px;
+  height: 40px;
+}
+
+.links-container .link:first-child img {
+  width: 35px;
+  height: 35px;
+}
+
+.links-container .link span {
+  color: black;
 }

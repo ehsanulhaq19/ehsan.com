@@ -3,7 +3,8 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
+// import logo from './logo/logo-black.png';
+import logo from './logo/logo-app.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/profile.png';
@@ -62,6 +63,18 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import lightsCanada from './projects/lightscanada.png';
+import legoart from './projects/legoart.png';
+import blackacre from './projects/blackacre.png';
+import bbweb from './projects/bbweb.png';
+import connect from './projects/connect.png';
+import workbot from './projects/workbot.png';
+import scheduling from './projects/scheduling.png';
+import tatoo from './projects/tatoo.png';
+
+import linkedin from './icons/linkedin.png';
+import whatsapp from './icons/whatsapp.png';
+import githubBlack from './icons/github-black.png';
 
 export {
   bwmap,
@@ -121,5 +134,16 @@ export {
   digilynx,
   emerssive,
   workhub,
-  tincx
+  tincx,
+  lightsCanada,
+  legoart,
+  blackacre,
+  bbweb,
+  connect,
+  workbot,
+  scheduling,
+  tatoo,
+  linkedin,
+  whatsapp,
+  githubBlack
 };

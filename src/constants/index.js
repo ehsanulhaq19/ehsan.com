@@ -39,7 +39,19 @@ import {
   digilynx,
   emerssive,
   workhub,
-  tincx
+  tincx,
+  lightsCanada,
+  legoart,
+  blackacre,
+  bbweb,
+  connect,
+  workbot,
+  scheduling,
+  tatoo,
+  linkedin,
+  whatsapp,
+  github,
+  githubBlack
 } from '../assets';
 
 export const navLinks = [
@@ -54,6 +66,27 @@ export const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
+  },
+];
+
+export const socialLinks = [
+  {
+    id: 'github',
+    title: 'Github',
+    url: "https://github.com/ehsanulhaq19",
+    img: githubBlack
+  },
+  {
+    id: 'linkedin',
+    title: 'Linkedin',
+    url: "https://www.linkedin.com/in/ehsan-ul-haq-60412b193/",
+    img: linkedin
+  },
+  {
+    id: 'whatsapp',
+    title: 'Whatsapp',
+    contact: "+923244971258",
+    img: whatsapp
   },
 ];
 
@@ -171,115 +204,212 @@ const resumeLink = "https://docs.google.com/document/d/1qEa8Cdg4gajkY3nQw_xxtye4
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Lights Canada',
+    description: 'An electronic e-commerce web application.',
     tags: [
       {
-        name: 'react',
+        name: 'vue',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'mysql',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'laravel',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: lightsCanada,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1l8DptqZzPcAU-Z0ulEDa3xvfN9wU5qL5/view?usp=sharing',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Black Acre',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A Human Resource Management app',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'laravel',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'mysql',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: blackacre,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1Gv6IqDajY4gawgaVLhV9lWt0Xn355tVx/view?usp=sharing',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Lego Art',
+    description: 'A lego art drawing board app.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'vue',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'node',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongo',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: legoart,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/18zDzc3bzDFEmBFE7VOHY0JkD5ZN2O_16/view?usp=sharing',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Connect',
+    description: `A communication app used for audio/video calls and messages`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'symfony',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mysql',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: connect,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1d1-J7BRBgYavu8rKiyWRmACHs8sGffJc/view?usp=sharing',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Scheduling',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Appointment booking and scheduling app',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'symfony',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mysql',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: scheduling,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1uJebbohDscM4LSSd0PAAWWPX8lR55c5A/view?usp=sharing',
+  },
+  {
+    id: 'project-6',
+    name: 'Workbot',
+    description:
+      'AI chat and assistant app',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'fastApi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
+    ],
+    image: workbot,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1hFPAFfhW74o2njSkFMyNHEgjHklgcudc/view?usp=drive_link',
+  },
+  {
+    id: 'project-7',
+    name: 'Tattoo App',
+    description:
+      'E-commerce app for tattoo lovers',
+    tags: [
+      {
+        name: 'vue',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'node',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
+    ],
+    image: tatoo,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1SLA0QPtfjOPQBB3XnV6OgvPm5DcTYro1/view?usp=sharing',
+  },
+  {
+    id: 'project-8',
+    name: 'BBweB',
+    description:
+      'Online saloon booking and beauty outlets app',
+    tags: [
+      {
+        name: 'jquery',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'laravel',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'aws',
+        color: 'yellow-text-gradient',
+      },
+    ],
+    image: bbweb,
+    repo: '',
+    demo: 'https://drive.google.com/file/d/1_j4AlwUqpCeiuFfa_QYpPvqwNBO-NGtq/view?usp=sharing',
   },
 ];
 

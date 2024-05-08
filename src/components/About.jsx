@@ -37,12 +37,17 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        In my portfolio, I'm excited to showcase a comprehensive full-stack project that seamlessly integrates 
+        cutting-edge technologies and multiple payment gateways to deliver a robust e-commerce platform. Leveraging 
+        React.js and Vue.js for dynamic front-end interfaces, and Nuxt.js for server-side rendering, I crafted an 
+        intuitive user experience that ensures high performance and SEO-friendliness. The back-end infrastructure, 
+        powered by Laravel, Symfony, and Django, offers scalability and security, enabling seamless communication 
+        between the client and server layers. Additionally, Node.js serves as the backbone for real-time data 
+        processing and WebSocket communication. What sets this project apart is its seamless integration of multiple 
+        payment gateways, including PayPal, Stripe, and many more, providing customers with flexibility and security during 
+        transactions. Whether it's handling user authentication, managing product catalogs, or processing payments 
+        securely, this project exemplifies my proficiency in full-stack development and my ability to deliver robust, 
+        scalable solutions that meet the demands of modern e-commerce."
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -187,7 +187,7 @@ const experiences = [
     title: 'Full Stack Web App Developer - Senior Level',
     company_name: 'Workhub',
     icon: workhub,
-    iconBg: '#333333',
+    iconBg: '#ffffff',
     date: 'Feb 2022 - March 2024',
   },
   {

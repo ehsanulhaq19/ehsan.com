@@ -8,7 +8,7 @@ import {
   Navbar,
   Tech,
   Projects,
-  IntroWidget
+  // IntroWidget
 } from './components';
 
 const App = () => {
@@ -47,7 +47,7 @@ const App = () => {
           <Contact />
         </div>
 
-        <IntroWidget />
+        {/* <IntroWidget /> */}
       </div>
     </BrowserRouter>
   );

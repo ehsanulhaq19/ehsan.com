@@ -199,7 +199,7 @@ const experiences = [
   },
 ];
 
-const resumeLink = "https://docs.google.com/document/d/1qEa8Cdg4gajkY3nQw_xxtye4jFz5ANhL/edit?usp=sharing&ouid=117366656523103312365&rtpof=true&sd=true";
+const resumeLink = "https://drive.google.com/file/d/1pJZFovmJNzqrfs5kFQtjRpso4pOHKMEo/view?usp=sharing";
 
 const projects = [
   {
